@@ -28,7 +28,7 @@ Essa transferência é feita através do protocolo HTTP, sendo assim, o REST diz
 
 * Stateless: cada pokebola que eu pedir para o atendente ele tem que saber exatamente o que eu estou pedindo, ou seja, cada vez que eu chamar uma API esse pedido precisa vir completo, com todas as informações, tudo do jeito certo, ele precisa entender e RESPONDER(response) a REQUISIÇÃO(request);
 
-<img src="images/img3.png" alt="ash-na-loja">
+<img src="images/img3.png" alt="ash-na-loja" width="700px">
 
 
 * Cacheable: as respostas para cada requisição que você fizer deverão ser explicitas, informando se elas podem ser cacheadas ou não;
