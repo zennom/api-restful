@@ -1,6 +1,7 @@
-### O que é um API? 
+# O que é um API? 
 
-* Um API é um intermediário entre um sistema e outro sistema
+* Um API é um intermediário entre um sistema e outro sistema. Exemplo: a empresa Uber utiliza um sistema de mapas de GPS, a empresa poderia criar o seu próprio sistema de mapa e GPS, entretanto eles resolveram integrar a um serviço que já existe, que é o Google Maps.
+
 
 ## Mestre Pokemon
 
@@ -19,29 +20,22 @@ Quando você chega na loja para comprar suas pokebolas você espera que seja bem
 
 ### Como é feita essa transferência de dados?
 
-Essa transferência é feita através do protocolo HTTP, sendo assim, o REST diz que precisamos seguir algumas regras para essa transferência de dados. Quem precisa seguir essas regras? São as regras que o RESTFUL precisa cumprir, ou seja, ser RESTFUL é cumprir os padrões REST.
+Essa transferência é feita através do protocolo HTTP, sendo assim, o REST diz que precisamos seguir algumas regras para essa transferência de dados. Quem precisa seguir essas regras? São as regras que o RESTFUL precisa cumprir, ou seja, **ser RESTFUL é cumprir os padrões REST.**
 
 
 ### 5 regras para ser RESTFUL
 
-* Client x Server: o cliente e servidor precisam estar separados, desse modo, poderemos ter uma portabilidade do nosso sistema, usando React JS para WEB e React Native para mobile, por exemplo;
+* **Client x Server:** o cliente e servidor precisam estar separados, desse modo, poderemos ter uma portabilidade do nosso sistema, usando React JS para WEB e React Native para mobile, por exemplo;
 
-* Stateless: cada pokebola que eu pedir para o atendente ele tem que saber exatamente o que eu estou pedindo, ou seja, cada vez que eu chamar uma API esse pedido precisa vir completo, com todas as informações, tudo do jeito certo, ele precisa entender e RESPONDER(response) a REQUISIÇÃO(request);
+* **Stateless:** cada pokebola que eu pedir para o atendente ele tem que saber exatamente o que eu estou pedindo, ou seja, cada vez que eu chamar uma API esse pedido precisa vir completo, com todas as informações, tudo do jeito certo, ele precisa entender e RESPONDER(response) a REQUISIÇÃO(request);
 
 <img src="images/img3.png" alt="ash-na-loja" width="700px">
 
 
-* Cacheable: as respostas para cada requisição que você fizer deverão ser explicitas, informando se elas podem ser cacheadas ou não;
+* **Cacheable:** as respostas para cada requisição que você fizer deverão ser explicitas, informando se elas podem ser cacheadas ou não;
 
 
-* Layered System: o cliente acessa o endpoint sem  precisar saber da complexidade, de quais passos estão sendo necessários para o servidor responder a requisição, ou quais outras camadas o servidor está lidando. No exemplo da loja é como se eu quisesse apenas as pokebolas, não me interessa saber se será necessário comprar de um fornecedor , ou seja, eu estou pedindo as pokebolas e quero receber, apenas isso;
+* **Layered System:** o cliente acessa o endpoint sem  precisar saber da complexidade, de quais passos estão sendo necessários para o servidor responder a requisição, ou quais outras camadas o servidor está lidando. No exemplo da loja é como se eu quisesse apenas as pokebolas, não me interessa saber se será necessário comprar de um fornecedor , ou seja, eu estou pedindo as pokebolas e quero receber, apenas isso;
 
 
-* Code on Demand(opcional): o servidor envia para o cliente algum script para ser rodado no front-end (o backend manda para o servidor rodar um script front-end).
-
-
-
-
-
-
-
+* **Code on Demand(opcional):** o servidor envia para o cliente algum script para ser rodado no front-end (o backend manda para o servidor rodar um script front-end).
